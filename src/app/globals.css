@@ -3,6 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary:#161B22;
+  --primary-text:#F9FAFB;
+  --second-text:#9CA3AF;
+  --danger:#EF4444;
+  --good: #22C55E;
+  --first-accent: #38BDF8;
+  --second-accent: #EC8710;
 }
 
 @theme inline {
@@ -10,6 +17,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-text: var(--primary-text);
+  --color-second-text: var(--second-text);
+  --color-danger: var(--danger);
+  --color-good: var(--good);
+  --color-first-accent: var(--first-accent);
+  --color-second-accent: var(--second-accent);
 }
 
 @media (prefers-color-scheme: dark) {
